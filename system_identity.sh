@@ -8,8 +8,7 @@ cat /etc/os-release | awk -F= 'BEGIN {print "{" ; count = 0}
     }
 }'
 echo -e "\t\"KERNEL\":\"$(uname -r)\","
-echo -e "\t\"MODEL\":\"$(cat /sys/class/dmi/id/product_name
-)\","
+echo -e "\t\"MODEL\":\"$(cat /sys/class/dmi/id/product_name)\","
 echo -e "\t\"ARCHITECTURE\":\"$(uname -p)\","
 echo -e "\t\"UPTIME\":\"$(uptime -p)\","
 echo -e "\t\"DPKG\":\"$(dpkg-query -f '${binary:Package}\n' -W | wc -l)\","
