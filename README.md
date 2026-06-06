@@ -195,5 +195,3 @@ Affiche pour chaque partition montée : système de fichiers, espace utilisé (M
 - **Déploiement** : PyInstaller
 
 ---
-
-*Projet développé sous Ubuntu 24.04.4 LTS — Noyau Linux 6.17, x86\_64*
